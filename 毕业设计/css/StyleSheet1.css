@@ -1,0 +1,226 @@
+﻿#login {
+    background-image: url('../images/微信图片_20200206175802.jpg');
+    /*background-image: url('../images/background1.gif');*/
+    opacity: 0.8;
+    min-width:1200px;
+    min-height:680px;
+}
+
+
+.body1 {
+  
+    background-image: url('../images/background1.gif');
+    background-repeat: repeat-x;
+    background-color: #FBFBFC;
+}
+header{
+    padding-bottom:5px;
+}
+image {    
+    padding-left:160px;
+}
+.content {
+    padding-top:0px;
+    padding-left:160px;
+   padding-right:160px;
+}
+.nav{
+    padding-left:160px;
+    
+    padding-bottom:10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0px auto; 
+    background-color: #7095bf;
+    float: left;
+    text-align:center;
+}
+
+    .nav ul li {
+        text-align: center;
+        width: 135px;
+        height: 28px;
+        float: left;
+        position: 90%;
+    }
+
+        .nav ul li a {
+            color:white;
+            width: 110px;
+            display: block;
+           padding:3px 5px;
+            text-decoration: none;
+            float: left;
+            font-family:Arial, Helvetica, sans-serif;
+            position: 15%;
+        }
+
+            .nav ul li a:hover {
+                color: darkslategrey;
+            }
+
+            .nav ul li  a:active {
+               color: rgb(159, 201, 61);
+            }
+
+
+
+comlun_1 {
+    border: 0px;
+    padding-left: 15px;
+    font-size: 100%;
+    margin: 5px;
+    background-color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
+    float: left;
+}
+
+
+
+.leftNav {
+    background-color: #7095bf;
+    width: 200px;
+    height:430px;
+}
+
+.leftNavh {
+    background-color: #7095bf;
+    width: 215px;
+    height: 430px;
+}
+
+
+.yahei1 {
+    color: #7095bf;
+    height:15px;
+    text-emphasis-color:red;
+    
+}
+
+.yahei {
+    color: #444;
+    line-height: 30px;
+    border: 4px;
+    font-size: 95%;
+    margin: 0px 0px 0px 8px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
+    list-style-type: none;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    background-color: #f3ecec;
+    text-decoration: none;
+    display: block;
+    height: 400px;
+}
+
+.yahei2 {
+    color: #444;
+    line-height: 35px;
+    border: 4px;
+    font-size: 93%;
+    margin: 0px 0px 0px 8px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
+    list-style-type: none;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    background-color: #f3ecec;
+    text-decoration: none;
+    display: block;
+    height: 370px;
+}
+
+
+
+.comlun_1.yahei{
+    font-size: 20px;
+    line-height: 22px;
+}
+.comlun_1.yahei.li{
+    font-size:20px;
+   
+    line-height:18px;
+}
+.comlun_1.li.a{
+    font-size:15px;
+    line-height:12px;
+    
+}
+
+/*.comlun_1.leftNav.yahei.li.a:hover{
+    color:aqua;
+}
+
+.comlun_1.leftNav.yahei.li.a:active {
+    color: red;
+}*/
+
+
+.comlun_2 {
+    /*width: 65%;*/
+    float: left;
+    /*border: 1px solid #3B6273;*/
+    /*width: 700px;*/
+    float: left;
+    margin-top:15px;
+   
+}
+
+
+.main {
+    width:1000px;
+    border:0px;
+    float:left; 
+    padding-top: 0px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.footer {
+    /*height: 90px;*/
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 180px;
+    position:fixed;
+    bottom: 0px;
+    background-color: #7095bf;
+    background-repeat: no-repeat;
+    background-position: left top;
+    left: 0px;
+    opacity: 0.8;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+.right_h {
+   
+    width: 65%;
+    float: left;
+    width: 750px;
+    height: 398px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+
+.mlength {
+    display: block;
+    width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+

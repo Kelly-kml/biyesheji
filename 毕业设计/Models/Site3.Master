@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site3.master.cs" Inherits="毕业设计.Models.Site3" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../css/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body class="body1">
+    <form id="form1" runat="server">
+        
+       <%--title--%>
+        <header>       
+            <div <%-- style="height:130px;background-color:#7095bf;"--%>>
+                <a href="/"><img src="../images/title.jpg" /></a>  
+                <%--<span class="#" style="font-family:Arial, Helvetica, sans-serif;font-size:38px;padding-left:40px;margin-top:120px;margin-bottom:150px; color:whitesmoke;">毕业生离校管理</span>--%>
+            </div>               
+            <div  class="nav" >
+                    <ul >                      
+                        <li><a class="menu0_1_" href="main_h.aspx"><span class="s10_1_">首页</span></a>&nbsp;|&nbsp;</li>
+                        <li><a class="menu0_1_" href="1_XSLXTJ.aspx"><span class="s10_1_">信息门户</span></a>&nbsp;|&nbsp;</li>
+                        <li><a class="menu0_1_" href="2_DAXXCX.aspx"><span class="s10_1_">档案室</span></a>&nbsp;|&nbsp;</li>
+                        <li><a class="menu0_1_" href="3_QFXXCX.aspx"><span class="s10_1_">财务处</span></a>&nbsp;|&nbsp;</li>
+                        <li><a class="menu0_1_" href="4_JYXXCX.aspx"><span class="s10_1_">图书馆</span></a>&nbsp;|&nbsp;</li>
+                        <li><a class="menu0_1_" href="../index.htm"><span class="s10_1_">校园风光</span></a>&nbsp;|&nbsp;</li>
+                        <li><a class="menu0_1_" href="../index.htm"><span class="s10_1_">关于我们</span></a></li>
+                    </ul>
+                </div>              
+        </header>
+
+        <%--main content--%>
+        <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">   
+                </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>
